@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Brain Jack</title>
+  </head>
+  <body>
+    <h1>Brain Jack</h1>
+    <script src="https://cdn.auth0.com/js/auth0/9.8.2/auth0.min.js"></script>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+console.log(window.location.href);
+      var auth0 = new auth0.WebAuth({
+    clientID: '5MuSXkFXM0Ib8we2FpGVZLzcOQJLtjh9',
+    domain: 'brainjack.auth0.com',
+    responseType: 'token id_token',
+    redirectUri: 'file:///callback',
+    scope: 'openid'
+  });
+
+
+  auth0.authorize();
+
+  console.log("scripted");
+    </script>
+  </body>
+</html>

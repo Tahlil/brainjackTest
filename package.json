@@ -1,0 +1,94 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "license": "CC0 1.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build",
+    "ship": "build --win -p always",
+    "postinstall": "install-app-deps"
+  },
+  "repository": "https://github.com/Tahlil/brainjetTest.git",
+  "keywords": [
+    "BrainJack",
+    "Brain Jack",
+    "Activity Tracking",
+    "Self Monitoring"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-rebuild": "^1.8.2",
+    "electron-builder": "^20.38.5"
+  },
+  "dependencies": {
+    "active-window": "^0.1.0",
+    "auth0-js": "^9.8.2",
+    "cmake-js": "^4.0.1",
+    "crypto": "^1.0.1",
+    "electron-packager": "^12.2.0",
+    "iohook": "^0.3.0",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  },
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "2.0.0"
+  },
+  "iohook": {
+    "targets": [
+      "node-59",
+      "electron-57"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  },
+  "build": {
+    "appId": "803803",
+    "productName": "Brain Jack",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "category":"productivity",
+      "icon":"assets/icons",
+      "packageCategory": "productivity",
+      "maintainer": "Tahlil bsse0803@iit.du.ac.bd",
+      "target": [
+        "AppImage"
+      ],
+      "synopsis":"A desktop monitoring app"
+    },
+    "win": {
+      "target": ["nsis"],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "license": "LICENSE.md",
+      "runAfterFinish": true
+    }
+  }
+}

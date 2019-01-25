@@ -1,0 +1,58 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager ./ BrainJack --overwrite --platform=all --arch=x64 --out=dist --icon=icon.ico && npm run copy-psscript",
+    "copy-psscript": "copy .\\startupShortcut.ps1 .\\dist\\BrainJack-win32-x64"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "BrainJack",
+    "Brain Jack",
+    "Activity Tracking",
+    "Self Monitoring"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-rebuild": "^1.8.2"
+  },
+  "dependencies": {
+    "active-window": "^0.1.0",
+    "auth0-js": "^9.8.2",
+    "cmake-js": "^4.0.1",
+    "crypto": "^1.0.1",
+    "electron-packager": "^12.2.0",
+    "iohook": "^0.3.0",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  },
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "2.0.0"
+  },
+  "iohook": {
+    "targets": [
+      "node-59",
+      "electron-57"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  },
+  "build": {
+    "win": {
+      "requestedExecutionLevel": "highestAvailable"
+    }
+  }
+}

@@ -1,0 +1,338 @@
+[
+    {
+        "app": "electron",
+        "title": "Hello World!",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 54
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 54
+            }
+        }
+    },
+    {
+        "app": "Code",
+        "title": "main.js - electron-quick-start - Visual Studio Code",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 55
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 55
+            }
+        }
+    },
+    {
+        "app": "chrome",
+        "title": "desktime | BS Machine learn Slack - Google Chrome",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 56
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 57
+            }
+        }
+    },
+    {
+        "app": "chrome",
+        "title": "Issues ∩┐╜ paperclamp/noviotax-framework - Google Chrome",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 58
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 58
+            }
+        }
+    },
+    {
+        "app": "chrome",
+        "title": "VAT number on invoice ∩┐╜ Issue #32 ∩┐╜ paperclamp/noviotax-framework - Google Chrome",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 19,
+                "s": 59
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 0
+            }
+        }
+    },
+    {
+        "app": "Code",
+        "title": "main.js - electron-quick-start - Visual Studio Code",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 1
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 2
+            }
+        }
+    },
+    {
+        "app": "Skype",
+        "title": "SkypeT? - emdad.bs23",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 3
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 4
+            }
+        }
+    },
+    {
+        "app": "chrome",
+        "title": "VAT number on invoice ∩┐╜ Issue #32 ∩┐╜ paperclamp/noviotax-framework - Google Chrome",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 5
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 5
+            }
+        }
+    },
+    {
+        "app": "chrome",
+        "title": "PHP gmdate() Function - Google Chrome",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 6
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 6
+            }
+        }
+    },
+    {
+        "app": "ApplicationFrameHost",
+        "title": "Brain Jack Data structure.pptx - Microsoft PowerPoint Online ?- Microsoft Edge",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 7
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 8
+            }
+        }
+    },
+    {
+        "app": "explorer",
+        "title": "",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 9
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 9
+            }
+        }
+    },
+    {
+        "app": "Code",
+        "title": "main.js - electron-quick-start - Visual Studio Code",
+        "start": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 10
+            }
+        },
+        "end": {
+            "date": {
+                "y": 118,
+                "m": 8,
+                "d": 24
+            },
+            "time": {
+                "h": 16,
+                "m": 20,
+                "s": 10
+            }
+        }
+    }
+]
