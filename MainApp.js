@@ -109,3 +109,18 @@ module.exports = class MainApp {
     });
   }
 }
+
+///
+
+const appDir = __dirname;
+const appFolder = path.dirname(appDir)
+const updateExe = path.resolve(appFolder, '..', 'Brain-Jack.exe')
+const exeName = path.basename(appDir)
+app.setLoginItemSettings({
+openAtLogin: true,
+path: updateExe,
+args: [
+'--processStart', "${exeName}",
+'--process-start-args', "--hidden"
+]
+})
