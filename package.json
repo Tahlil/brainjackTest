@@ -7,7 +7,7 @@
   "scripts": {
     "start": "electron .",
     "dist": "build",
-    "ship": "build --win -p always",
+    "ship": "build --win -p always --config electron-builder.yml",
     "postinstall": "install-app-deps"
   },
   "repository": "https://github.com/Tahlil/brainjetTest.git",
@@ -56,7 +56,7 @@
     ]
   },
   "build": {
-    "appId": "803803",
+    "appId": "com.bs.brainJack",
     "productName": "Brain Jack",
     "mac": {
       "target": [
