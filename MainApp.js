@@ -7,7 +7,6 @@ const {
   autoUpdater
 } = require('electron-updater');
 const isDev = require('electron-is-dev');
-const path = require('path');
 
 autoUpdater.logger = require('electron-log');
 autoUpdater.logger.transports.file.level = 'info';
