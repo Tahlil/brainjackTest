@@ -70,7 +70,7 @@
       "background": "",
       "icon": "icon.icns",
       "iconSize": 100,
-      "Window": {
+      "window": {
         "width": 744,
         "height": 465
       },
