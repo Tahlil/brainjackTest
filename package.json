@@ -1,7 +1,7 @@
 {
   "name": "electron-quick-start",
   "version": "1.0.0",
-  "license": "CC0 1.0",
+  "license": "CC0-1.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
@@ -18,7 +18,6 @@
     "Self Monitoring"
   ],
   "author": "GitHub",
-  "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0",
     "electron-rebuild": "^1.8.2",
@@ -32,7 +31,10 @@
     "electron-packager": "^12.2.0",
     "iohook": "^0.3.0",
     "lodash": "^4.17.11",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "electron-updater": "^4.0.6",
+    "electron-is-dev": "1.0.1",
+    "electron-log": "2.2.17"
   },
   "cmake-js": {
     "runtime": "electron",
@@ -56,19 +58,21 @@
   "build": {
     "appId": "803803",
     "productName": "Brain Jack",
-    "mac":{
-      "target": ["dmg"],
+    "mac": {
+      "target": [
+        "dmg"
+      ],
       "identity": null,
       "icon": "assets/icons/mac/icon.icns",
       "category": "public.app-category.productivity"
     },
     "dmg": {
-      "background":"",
-      "icon":"icon.icns",
-      "iconSize":100,
-      "Window":{
-        "width":744,
-        "height":465
+      "background": "",
+      "icon": "icon.icns",
+      "iconSize": 100,
+      "Window": {
+        "width": 744,
+        "height": 465
       },
       "contents": [
         {
@@ -84,17 +88,19 @@
       ]
     },
     "linux": {
-      "category":"productivity",
-      "icon":"assets/icons",
+      "category": "productivity",
+      "icon": "assets/icons",
       "packageCategory": "productivity",
       "maintainer": "Tahlil bsse0803@iit.du.ac.bd",
       "target": [
         "AppImage"
       ],
-      "synopsis":"A desktop monitoring app"
+      "synopsis": "A desktop monitoring app"
     },
     "win": {
-      "target": ["nsis"],
+      "target": [
+        "nsis"
+      ],
       "icon": "icon.ico"
     },
     "nsis": {

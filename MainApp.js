@@ -3,7 +3,41 @@ const path = require('path');
 const ActivityTracker = require("./ActivityTracker");
 const config = require('./config');
 const EnvironmentSpecificOperations = require('./EnvironmentSpecificOperations');
+const {
+  autoUpdater
+} = require('electron-updater');
+const isDev = require('electron-is-dev');
+const path = require('path');
 
+autoUpdater.logger = require('electron-log');
+autoUpdater.logger.transports.file.level = 'info';
+
+autoUpdater.on('checking-for-update', () => {
+  console.log("Checking for updates....");
+});
+
+autoUpdater.on('update-available', (info) => {
+  console.log("Update available");
+  console.log("Version: ", info.version);
+  console.log("Release date: ", info.releaseDate);
+});
+
+autoUpdater.on('update-not-available', () => {
+  console.log("Update not available");
+});
+
+autoUpdater.on('download-progress', (progress) => {
+  console.log(`Progress: ${Math.floor(progress.percent)}`);
+});
+
+autoUpdater.on('update-downloaded', () => {
+  console.log("Update Downloaded");
+  autoUpdater.quitAndInstall();
+});
+
+autoUpdater.on('error', (error) => {
+  console.log(error);
+});
 module.exports = class MainApp {
   constructor(app, menu) {
     this.isRunningAsAdmin;
@@ -26,6 +60,9 @@ module.exports = class MainApp {
 
   mainWindowSetUp() {
     this._mainWindow = new BrowserWindow({ width: 400, height: 550 });
+    if (!isDev) {
+      autoUpdater.chekForUpdate();
+    }
     this._mainWindow.loadURL(config.webAppUrl);
     this._mainWindow.setMenu(null);
     this._mainWindow.setIcon(this.iconPath);
