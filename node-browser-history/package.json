@@ -1,0 +1,78 @@
+{
+  "_from": "node-browser-history",
+  "_id": "node-browser-history@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-ZMN+e3N/APVMhDQGFhatLvruO6k=",
+  "_location": "/node-browser-history",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "node-browser-history",
+    "name": "node-browser-history",
+    "escapedName": "node-browser-history",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-browser-history/-/node-browser-history-1.0.4.tgz",
+  "_shasum": "64c37e7b737f00f54c8434061616ad2efaee3ba9",
+  "_spec": "node-browser-history",
+  "_where": "E:\\bsh",
+  "author": {
+    "name": "Lance Thompson"
+  },
+  "bugs": {
+    "url": "https://github.com/MyOutDeskLLC/node-browser-history/issues"
+  },
+  "build": {
+    "extraResources": [],
+    "win": {
+      "extraResources": [
+        "./*.dll"
+      ]
+    },
+    "osx": {
+      "extraResources": []
+    }
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "better-sqlite3": "^5.3.0",
+    "edge-js": "^9.0.2",
+    "electron-edge-js": "^8.2.9",
+    "electron-rebuild": "^1.8.2",
+    "fs-copy-file-sync": "^1.1.1",
+    "moment": "^2.23.0",
+    "sqlite3": "^3.1.13",
+    "uuid": "^3.1.0"
+  },
+  "deprecated": false,
+  "description": "This application aims to retrieve browser history from all browsers on the user's computer. It will attempt to read from some common locations.",
+  "devDependencies": {
+    "node-gyp": "^3.6.2"
+  },
+  "engine": {
+    "node": "8.1.1"
+  },
+  "homepage": "https://github.com/MyOutDeskLLC/node-browser-history#readme",
+  "keywords": [
+    "browser",
+    "history"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "node-browser-history",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyOutDeskLLC/node-browser-history.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "version": "1.0.4"
+}
